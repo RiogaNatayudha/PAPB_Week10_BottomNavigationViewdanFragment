@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Theater"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Jakarta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jakarta"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginStart="8dp"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPilihBioskop"
+            android:background="@drawable/rounded_spinner"
+            android:padding="8dp"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/Aceh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceh"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginStart="8dp"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerBioskop2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPilihBioskop"
+            android:background="@drawable/rounded_spinner"
+            android:padding="8dp"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/Medan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginStart="8dp"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerBioskop3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPilihBioskop"
+            android:background="@drawable/rounded_spinner"
+            android:padding="8dp"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/Lampung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lampung"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginStart="8dp"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerBioskop4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPilihBioskop"
+            android:background="@drawable/rounded_spinner"
+            android:padding="8dp"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/Yogyakarta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yogyakarta"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginStart="8dp"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerBioskop5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPilihBioskop"
+            android:background="@drawable/rounded_spinner"
+            android:padding="8dp"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/Semarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semarang"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginStart="8dp"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerBioskop6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPilihBioskop"
+            android:background="@drawable/rounded_spinner"
+            android:padding="8dp"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:id="@+id/Bandung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bandung"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginStart="8dp"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerBioskop7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPilihBioskop"
+            android:background="@drawable/rounded_spinner"
+            android:padding="8dp"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</FrameLayout>
